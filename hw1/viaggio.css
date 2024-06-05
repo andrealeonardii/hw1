@@ -1,0 +1,87 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #070A21;
+  }
+  .siVolaImg{
+    height: 80px;
+  }
+
+
+#logo{
+    font-size: 44px;
+    font-weight: bold;
+    border-bottom: 1px solid #d9dadc;
+    padding: 25px 0 25px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .container{
+    display: flex;
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-around;
+  }
+  .item-container{
+    width: 35%;
+  }
+  .img{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+  }
+  .nomeViaggio{
+      margin: 20px;
+      font-size: 27px;
+      color: white;
+  }
+  a.carrello:hover{
+    color: #083633;
+  }
+  p{
+    font-size: 19px;
+  }
+  .descrizione{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 11%;
+    margin-left: 11%;
+  }
+
+  .carrello{
+    color: #05a89d;
+    text-decoration: none;
+  }
+
+
+  .api{
+    text-align: center;
+  }
+
+  .scritta2{
+    font-size: 20px;
+  }
+
+  input{
+    font-size: 20px;
+    border: 1px solid #008b8b;
+    background: none;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 6px;
+    margin-top: 20px;
+
+  }
+  input:hover{
+    background-color: #008b8b;
+    color: white;
+  }
+
+  #meteo-view{
+    margin-bottom: 20px;
+  }
